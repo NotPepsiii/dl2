@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Hide horizontal scrollbars everywhere */
+*::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}

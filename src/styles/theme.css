@@ -1,0 +1,21 @@
+:root {
+  /* Layout */
+  --content-max: 1920px;
+  --page-padding: clamp(16px, 3vw, 64px);
+  --section-gap: clamp(24px, 4vw, 56px);
+
+  /* Poster Sizes */
+  --poster-width: clamp(150px, 12vw, 260px);
+  --poster-radius: 20px;
+
+  /* Typography */
+  --hero-title: clamp(2.5rem, 6vw, 5.5rem);
+  --heading: clamp(1.5rem, 2vw, 2.25rem);
+  --body: clamp(1rem, 1.2vw, 1.25rem);
+
+  /* Buttons */
+  --button-height: clamp(48px, 5vh, 64px);
+
+  /* Focus Ring */
+  --focus: #e50914;
+}
